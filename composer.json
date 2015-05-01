@@ -1,0 +1,23 @@
+{
+    "name": "crysthianophp/SONBase",
+    "type": "library",
+    "description": "Base para modulos em ZF 2",
+    "keywords": [
+        "module",
+        "zf2",
+        "son"
+    ],
+    "homepage": "http://framework.zend.com",
+    "license": "MIT",
+    "authors": [
+        {"name": "Crysthiano", "email": "crysthianophp@gmail.com"}
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "zendframework/zendframework": "2.*",
+        "doctrine/doctrine-orm-module": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "SONBase": "src/" }
+    }
+}
